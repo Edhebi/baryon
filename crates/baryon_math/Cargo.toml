@@ -3,15 +3,12 @@
 # SPDX-License-Identifier: Zlib
 
 [package]
-name = "baryon"
+name = "baryon_math"
 version = "0.0.0"
 edition = "2018"
 authors = ["Léo Masson <lmasson@edhebi.info>"]
 license = "Zlib"
-description = "The Baryon game engine"
+description = "Math library for the baryon game engine"
 homepage = "https://github.com/Edhebi/baryon"
 repository = "https://github.com/Edhebi/baryon"
 readme = "README.md"
-
-[workspace]
-members = ["crates/*"]

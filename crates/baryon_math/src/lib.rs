@@ -2,10 +2,16 @@
 //
 // SPDX-License-Identifier: Zlib
 
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert_eq!(2 + 2, 4);
-    }
+//! #baryon_math
+//!
+//! Lightweight linear algebra library for the baryon game engine.
+
+mod vec2;
+mod vec3;
+mod vec4;
+
+pub use crate::{vec2::Vec2, vec3::Vec3, vec4::Vec4};
+
+pub mod prelude {
+    pub use crate::{Vec2, Vec3, Vec4};
 }

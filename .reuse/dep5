@@ -1,0 +1,6 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: neon
+
+Files: Cargo.lock
+Copyright: 2020 Léo Masson <lmasson@edhebi.info>
+License: Zlib

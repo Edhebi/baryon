@@ -1,0 +1,14 @@
+# SPDX-FileCopyrightText: 2020 Léo Masson <lmasson@edhebi.info>
+#
+# SPDX-License-Identifier: Zlib
+
+[package]
+name = "baryon"
+version = "0.1.0"
+edition = "2018"
+authors = ["Léo Masson <lmasson@edhebi.info>"]
+license = "Zlib"
+description = "The Baryon game engine"
+homepage = "https://github.com/Edhebi/baryon"
+repository = "https://github.com/Edhebi/baryon"
+readme = "README.md"

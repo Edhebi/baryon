@@ -6,11 +6,9 @@
 //!
 //! Lightweight linear algebra library for the baryon game engine.
 
-mod vec2;
-mod vec3;
-mod vec4;
+mod vec;
 
-pub use crate::{vec2::Vec2, vec3::Vec3, vec4::Vec4};
+pub use crate::vec::{Vec2, Vec3, Vec4};
 
 pub mod prelude {
     pub use crate::{Vec2, Vec3, Vec4};
